@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-rerv</actionName>
+            <displayName>rerv</displayName>
+            <goals>
+                <goal>resources:copy-resources</goal>
+            </goals>
+            <properties>
+                <dweewe></dweewe>
+            </properties>
+            <activatedProfiles>
+                <activatedProfile>release-profile</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
